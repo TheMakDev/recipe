@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: hsl(30, 54%, 90%);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.card{
+    width: 450px;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.card h3{
+    margin-right: auto;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.card p{
+    font-size: 12px;
+    color: #555;
+
+}
+.FirstsmallCard{
+    background: hsl(330, 100%, 98%);
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+.FirstsmallCard h4{
+    color: hsl(332, 51%, 32%);
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.FirstsmallCard ul{
+    margin-left: 25px;
+}
+.FirstsmallCard ul li{
+    padding: 7px;
+}
+.SecondsmallCard{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.SecondsmallCard ul{
+    margin-left: 25px;
+}
+.SecondsmallCard ul li{
+    padding: 5px;
+}
+.SecondsmallCard h4{
+    color: hsl(332, 51%, 32%);
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.ThirdsmallCard{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ThirdsmallCard ol{
+    margin-left: 25px;
+}
+.ThirdsmallCard ol li{
+    padding: 5px;
+}
+.ThirdsmallCard h4{
+    color: hsl(332, 51%, 32%);
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.lastCard{
+    font-family: 'Poppins', sans-serif;
+
+}
+table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table th{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+table td{
+    width: 150px;
+    border-bottom: 1px solid #555;
+
+}
+table tr{
+    border-bottom: 8px solid #555;
+    
+}
+@media (max-width: 850px){
+    .card{
+        width: 80%;
+    }
+}
+
